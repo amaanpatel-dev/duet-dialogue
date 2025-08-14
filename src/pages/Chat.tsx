@@ -113,7 +113,7 @@ const Chat = () => {
   }
 
   return (
-    <div className="flex flex-col h-screen bg-chat-background max-w-7xl mx-auto">
+    <div className="flex flex-col h-screen bg-chat-background max-w-4xl mx-auto">
       {/* Header */}
       <div className="flex items-center justify-between p-4 bg-card border-b border-border/50">
         <Button variant="ghost" size="sm" onClick={handleBack} className="hover:bg-card-hover">
