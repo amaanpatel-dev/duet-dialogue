@@ -6,63 +6,63 @@
 
 @layer base {
   :root {
-    /* Dark theme base colors */
-    --background: 222 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark theme base colors - matching reference */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 95%;
 
     /* Card and surface colors */
-    --card: 222 84% 6%;
-    --card-foreground: 210 40% 98%;
-    --card-hover: 222 84% 8%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
+    --card-hover: 0 0% 15%;
 
     /* Chat specific colors */
-    --chat-background: 222 84% 3%;
-    --user-message: 262 83% 58%;
-    --bot-message: 222 84% 8%;
-    --message-text: 210 40% 98%;
+    --chat-background: 0 0% 6%;
+    --user-message: 25 95% 53%;
+    --bot-message: 0 0% 12%;
+    --message-text: 0 0% 95%;
 
     /* Interactive elements */
-    --popover: 222 84% 6%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Brand colors with purple/blue gradient theme */
-    --primary: 262 83% 58%;
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 262 83% 70%;
+    /* Brand colors with warm orange theme */
+    --primary: 25 95% 53%;
+    --primary-foreground: 0 0% 10%;
+    --primary-glow: 25 95% 65%;
 
     /* Secondary accent */
-    --secondary: 217 91% 60%;
-    --secondary-foreground: 222 84% 4.9%;
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 95%;
 
     /* Subtle backgrounds */
-    --muted: 217 32% 17%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 65%;
 
     /* Accent colors */
-    --accent: 217 32% 17%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 0 0% 18%;
+    --accent-foreground: 0 0% 95%;
 
     /* Status colors */
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 95%;
 
     /* Borders and inputs */
-    --border: 217 32% 17%;
-    --input: 217 32% 15%;
-    --ring: 262 83% 58%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 25 95% 53%;
 
     /* Design system tokens */
     --radius: 0.75rem;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(217 91% 60%));
-    --gradient-subtle: linear-gradient(180deg, hsl(222 84% 6%), hsl(222 84% 4%));
-    --gradient-card: linear-gradient(145deg, hsl(222 84% 7%), hsl(222 84% 5%));
+    --gradient-primary: linear-gradient(135deg, hsl(25 95% 53%), hsl(35 100% 60%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 12%), hsl(0 0% 8%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 14%), hsl(0 0% 10%));
 
     /* Shadows and glows */
-    --shadow-glow: 0 0 40px hsl(262 83% 58% / 0.3);
-    --shadow-card: 0 8px 32px hsl(222 84% 2% / 0.5);
-    --shadow-message: 0 2px 8px hsl(222 84% 2% / 0.3);
+    --shadow-glow: 0 0 40px hsl(25 95% 53% / 0.3);
+    --shadow-card: 0 8px 32px hsl(0 0% 4% / 0.8);
+    --shadow-message: 0 2px 8px hsl(0 0% 4% / 0.5);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
